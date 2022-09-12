@@ -4,7 +4,7 @@
   margin:0;
   padding:0;
   box-sizing:border-box;
-  border:1px solid red;
+  
 }
 
 body {
@@ -38,14 +38,18 @@ input {
 .header, .footer{
   display:flex;
   justify-content:space-between;
-  border:solid 1px red;
+  
 }
 
 a{
   text-decoration:none;
+  color:black;
+  
   margin:15px;
-  border:solid red 1px; 
+  
 }
+
+
 
 .left-links, .right-links{
   list-style: none;
@@ -66,6 +70,10 @@ a{
   flex-direction:column;
   justify-content:center;
   align-items:center;
+}
+
+.footer{
+  background-color:lightgray;
 }
 
   
